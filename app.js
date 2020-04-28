@@ -4,6 +4,8 @@ const addExpenseBtn = document.querySelector('#add-expense');
 const cancelBtn = document.querySelector('#cancel');
 const expenseList = document.querySelector('#expenses-list');
 const totalExpense = document.querySelector('#total-expense');
+const totalBudget = document.querySelector('#total-budget-amount');
+const setBudgetBtn = document.querySelector('#set-budget');
 
 let totalAmount = 0;
 

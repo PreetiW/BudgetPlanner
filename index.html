@@ -30,7 +30,15 @@
             <ion-col size-md="6" offset-md="3">
               <ion-card>
                 <ion-card-header>
-                  <ion-card-title>Set Monthly Budget</ion-card-title>
+                  <div>
+                    <ion-card-title>Set Monthly Budget</ion-card-title>
+                    <div class="ion-text-right">
+                      <ion-button id="set-budget" color="primary" fill="solid">
+                        <ion-icon slot="start" name="wallet-outline"></ion-icon>
+                        Set Budget
+                      </ion-button>
+                    </div>
+                  </div>
                 </ion-card-header>
                 <ion-card-content>
                   <ion-item>
@@ -40,12 +48,6 @@
                       type="number"
                     ></ion-input>
                   </ion-item>
-                  <div class="ion-margin-vertical ion-text-right">
-                    <ion-button id="set-budget" color="primary" fill="solid">
-                      <ion-icon slot="start" name="wallet-outline"></ion-icon>
-                      Set Budget
-                    </ion-button>
-                  </div>
                 </ion-card-content>
               </ion-card>
               <ion-card>
